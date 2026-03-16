@@ -30,6 +30,9 @@ The `run_experiments.sh` script handles building the DT automatically, but if yo
 ```bash
 cd vsi/
 vsiBuild -f build_digital_twin.cmd
+
+### activate the tool
+source env_vsi.bash
 ```
 This generates the `LineFollowingDT` folder.
 
