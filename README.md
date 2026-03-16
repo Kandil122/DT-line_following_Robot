@@ -64,6 +64,6 @@ python3 experiments/analyze_results.py --csv output/results/results.csv
 ## improvements
 ### note 
 - all the paths should tofollow the path of vsi in the VPC
-- test suite didn't work entirely work correctly so I manualy tested each test case 
+- test suite didn't entirely work correctly so I manualy tested each test case 
 
 
