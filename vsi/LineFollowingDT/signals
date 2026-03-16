@@ -1,0 +1,34 @@
+-N
+0 simulator 1
+x double o 0
+y double o 0
+theta double o 0
+t double o 0
+v double i 0
+omega double i 0
+-N
+1 controller 1
+x double i 0
+y double i 0
+theta double i 0
+v double o 0
+omega double o 0
+-N
+2 visualizer 1
+x double i 0
+y double i 0
+-CAN
+12 0 o [x:0:64]
+13 0 o [y:0:64]
+14 0 o [theta:0:64]
+15 0 o [t:0:64]
+16 0 i [v:0:64]
+17 0 i [omega:0:64]
+12 1 i [x:0:64]
+13 1 i [y:0:64]
+14 1 i [theta:0:64]
+16 1 o [v:0:64]
+17 1 o [omega:0:64]
+12 2 i [x:0:64]
+13 2 i [y:0:64]
+-END

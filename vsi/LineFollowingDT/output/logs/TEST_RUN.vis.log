@@ -1,0 +1,10 @@
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToServer():
++=+    Connecting clientId=':remoteSession2' to 'server@localhost' ...
+XLVIP-FATAL: XlTlmMessageLayerBase::signalHandlerMethod() caught signal 2, initiating cleanup actions ...
+error(4): DCBlockingRecv(): Error calling recv(): Interrupted system call
+XLVIP-FATAL: XlTlmMessageLayerBase::signalHandlerMethod(): client aborted due to signal '2' [line #211 of 'protected/XlTlmMessageLayerBase.cxx'].
+DC-FATAL: DcMessageManager::messageReceive(): Error on :remoteSession2 receive call - receiving packet directly from socket [errno=4 perror()='Interrupted system call' line #448 of 'protected/DcMessageManager.h']
+
+RAWC-API FATAL: Program aborting. [line #255] of 'protected/RawcTlmApi.cxx'
+error(104): DCBlockingRecv(): Error calling recv(): Connection reset by peer
+terminate called after throwing an instance of 'std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >'

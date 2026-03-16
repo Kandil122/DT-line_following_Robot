@@ -1,0 +1,27 @@
+error(104): DCBlockingRecv(): Error calling recv(): Connection reset by peer
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToServer():
++=+    Connecting clientId=':remoteSession0' to 'server@localhost' ...
+DC-FATAL: DcMessageManager::messageReceive(): Error on :remoteSession0 receive call - receiving packet directly from socket [errno=104 perror()='Connection reset by peer' line #448 of 'protected/DcMessageManager.h']
+
+RAWC-API FATAL: Program aborting. [line #255] of 'protected/RawcTlmApi.cxx'
+error(32): DCBlockingSend(): Error calling send(): Broken pipe
+terminate called after throwing an instance of 'std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >'
+ssageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession0
++=+        conduitId=:resetServerConduit0
+           localClientConduitHandle=0x566c71377f68
+           remoteServerProxyConduitHandle=0x26906880
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession0
++=+        conduitId=:txConfigPort0
+           localClientConduitHandle=0x566c71222c80
+           remoteServerProxyConduitHandle=0x2691a0c0
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession0
++=+        conduitId=:rxConfigPort0
+           localClientConduitHandle=0x566c7137e760
+           remoteServerProxyConduitHandle=0x26915cd0
++=+ INFO: ... successfully connected to TLM FabricServer !
