@@ -28,11 +28,12 @@ Ensure you have started your Innexis environment and VSI tools are sourced into 
 The `run_experiments.sh` script handles building the DT automatically, but if you want to build it manually:
 
 ```bash
-cd vsi/
-vsiBuild -f build_digital_twin.cmd
+cd /vsi/ # go location of the vsi directory
 
-### activate the tool
-source env_vsi.bash
+source env_vsi.bash # activate your vsi 
+
+vsiBuild -f build_digital_twin.cmd # build your dtdtl file, define how the system structure and signals
+
 ```
 This generates the `LineFollowingDT` folder.
 
